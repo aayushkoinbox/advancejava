@@ -15,7 +15,7 @@ public static void main(String... args){
                 System.out.println("Button clicked!");
             }
         });
-f.setSize(300, 300);                       // Set frame size
+        f.setSize(300, 300);                       // Set frame size
         f.setLayout(null);                         // Use no layout manager
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close on exit
         f.setVisible(true);                        // Make the frame visible
